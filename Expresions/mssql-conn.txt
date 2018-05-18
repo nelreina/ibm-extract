@@ -1,0 +1,1 @@
+"Data Source=" +  @[$Project::pDataExtractDataSource]   + ";User ID="+ @[$Project::pDataExtractUername]   +";Initial Catalog="+ @[$Project::pDataExtractName]  +";Provider=SQLNCLI11.1;Auto Translate=False;"

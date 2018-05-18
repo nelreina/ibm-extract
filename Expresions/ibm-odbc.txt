@@ -1,0 +1,1 @@
+"Dsn="+ @[$Project::pIBMDNS] +";uid=VIS_REPORT;system="+ @[$Project::pIBMSystem] +";dbq="+ @[$Project::pIBMLibrary] +";dftpkglib="+ @[$Project::pIBMLibrary] +";languageid=ENU;pkg="+ @[$Project::pIBMLibrary] +"/DEFAULT(IBM),2,0,1,0,512;qrystglmt=-1"
