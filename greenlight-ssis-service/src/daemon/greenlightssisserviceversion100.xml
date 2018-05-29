@@ -1,0 +1,26 @@
+<service>
+	<id>greenlightssisserviceversion100.exe</id>
+	<name>greenlight-ssis-service Version: 1.0.0</name>
+	<description></description>
+	<executable>C:\Program Files (x86)\nodejs\node.exe</executable>
+	<logmode>rotate</logmode>
+	<argument>--harmony</argument>
+	<argument>C:\Greenlight\Apps\data-service\node_modules\node-windows\lib\wrapper.js</argument>
+	<argument>--file</argument>
+	<argument>C:\Greenlight\Apps\data-service\src\server.js</argument>
+	<argument>--log</argument>
+	<argument>greenlight-ssis-service Version: 1.0.0 wrapper</argument>
+	<argument>--grow</argument>
+	<argument>0.25</argument>
+	<argument>--wait</argument>
+	<argument>1</argument>
+	<argument>--maxrestarts</argument>
+	<argument>3</argument>
+	<argument>--abortonerror</argument>
+	<argument>n</argument>
+	<argument>--stopparentfirst</argument>
+	<argument>undefined</argument>
+	<stoptimeout>30sec</stoptimeout>
+	<env name="NODE_ENV" value="production"/>
+	<workingdirectory>C:\Greenlight\Apps\data-service</workingdirectory>
+</service>

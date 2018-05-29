@@ -1,0 +1,92 @@
+[
+  {
+    "variable_id": "1",
+    "environment_id": "1",
+    "name": "vDataExtractDataSource",
+    "description": "",
+    "type": "String",
+    "sensitive": false,
+    "value": "GREENLIGHT-RDS\\MSSQL2017"
+  },
+  {
+    "variable_id": "2",
+    "environment_id": "1",
+    "name": "vDataExtractName",
+    "description": "",
+    "type": "String",
+    "sensitive": false,
+    "value": "DataExtract"
+  },
+  {
+    "variable_id": "3",
+    "environment_id": "1",
+    "name": "vDataExtractPwd",
+    "description": "",
+    "type": "String",
+    "sensitive": true,
+    "value": null
+  },
+  {
+    "variable_id": "4",
+    "environment_id": "1",
+    "name": "vDataExtractUername",
+    "description": "",
+    "type": "String",
+    "sensitive": false,
+    "value": "mssql2017"
+  },
+  {
+    "variable_id": "5",
+    "environment_id": "1",
+    "name": "vIBMDNS",
+    "description": "",
+    "type": "String",
+    "sensitive": false,
+    "value": "SPRVISTD25"
+  },
+  {
+    "variable_id": "6",
+    "environment_id": "1",
+    "name": "vIBMPwd",
+    "description": "",
+    "type": "String",
+    "sensitive": true,
+    "value": null
+  },
+  {
+    "variable_id": "7",
+    "environment_id": "1",
+    "name": "vIBMUser",
+    "description": "",
+    "type": "String",
+    "sensitive": false,
+    "value": "VIS_REPORT"
+  },
+  {
+    "variable_id": "8",
+    "environment_id": "1",
+    "name": "vWebHook",
+    "description": "",
+    "type": "String",
+    "sensitive": false,
+    "value": "http://localhost:6001"
+  },
+  {
+    "variable_id": "9",
+    "environment_id": "1",
+    "name": "vIBMLibrary",
+    "description": "",
+    "type": "String",
+    "sensitive": false,
+    "value": "SPRVISTD25"
+  },
+  {
+    "variable_id": "10",
+    "environment_id": "1",
+    "name": "vIBMSystem",
+    "description": "",
+    "type": "String",
+    "sensitive": false,
+    "value": "10.10.22.151"
+  }
+]

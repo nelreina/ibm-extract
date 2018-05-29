@@ -1,0 +1,33 @@
+{
+  "name": "greenlight-ssis-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "nodemon --watch src src/server.js --json",
+    "service:install": "node win-service-install",
+    "service:un-install": "node win-service-uninstall"
+  },
+  "keywords": [],
+  "author": "Nelson Reina <nelreina@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "json2csv": "3.11.5",
+    "log4js": "^2.5.3",
+    "minimist": "^1.2.0",
+    "nelreina-node-utils": "^1.0.0",
+    "node-windows": "^0.1.14",
+    "nodemon": "^1.17.3",
+    "sequelize": "^4.37.6",
+    "sequelize-msnodesqlv8": "^0.2.6-beta.7",
+    "string": "^3.3.3",
+    "tedious": "^2.3.1",
+    "then-redis": "^2.0.1"
+  },
+  "devDependencies": {
+    "eslint-config-google": "^0.9.1"
+  }
+}
