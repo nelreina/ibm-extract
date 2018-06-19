@@ -1,0 +1,10 @@
+"
+DECLARE @payload Varchar(max)
+
+SET @payload = '{
+  \"event\": \"import-start\",
+  \"data\": {}
+}'
+
+exec spPost '" +  @[$Project::pWebhook]  + "', @payload
+"

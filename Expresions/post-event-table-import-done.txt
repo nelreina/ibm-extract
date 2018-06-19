@@ -1,0 +1,13 @@
+"DECLARE @payload Varchar(max)
+DECLARE @nRows int = 0
+
+select  @nRows = count(*) from tablename
+SET @payload = FORMATMESSAGE('{
+  \"event\": \"table-import-done\",
+  \"data\": {
+    \"tablename\": {\"nRows\": %d}
+  }
+}', @nRows)
+
+exec spPost '" +  @[$Project::pWebhook]  + "', @payload
+"

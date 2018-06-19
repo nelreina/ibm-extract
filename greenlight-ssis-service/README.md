@@ -1,1 +1,0 @@
-# node-sql-data-extract

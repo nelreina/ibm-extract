@@ -1,9 +1,0 @@
-"
-DECLARE @payload Varchar(max)
-SET @payload = '{
-  \"event\": \"import-finished\"
-}'
-
-exec spPost '" +  @[$Project::pWebhook]  + "', @payload
-
-"
