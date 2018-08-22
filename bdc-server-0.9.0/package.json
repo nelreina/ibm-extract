@@ -1,0 +1,28 @@
+{
+	"name": "greenlight-server",
+	"version": "0.9.0",
+	"main": "index.js",
+	"dependencies": {
+		"body-parser": "^1.15.2",
+		"compression": "^1.6.2",
+		"cors": "^2.8.1",
+		"excel-column-name": "^1.0.0",
+		"express": "^4.14.0",
+		"express-validator": "^3.1.2",
+		"gridfs-stream": "^1.1.1",
+		"js2xmlparser": "^2.0.2",
+		"json-2-csv": "^2.1.1",
+		"lodash": "^4.17.4",
+		"moment": "^2.15.1",
+		"morgan": "^1.7.0",
+		"node-fetch": "^1.6.3",
+		"node-windows": "^0.1.14",
+		"pg": "^6.1.1",
+		"pg-hstore": "^2.3.2",
+		"sequelize": "^3.27.0",
+		"sequelize-to-json": "^0.10.3",
+		"string": "^3.3.3",
+		"tedious": "^1.14.0",
+		"xlsx": "^0.8.0"
+	}
+}

@@ -1,0 +1,18 @@
+{
+	"port": 7002,
+	"client": "BDC",
+	"GreenLightDB": {
+		"username": "webaccount",
+		"password": "glwebuser12345",
+		"database": "GreenLightDB",
+		"options": {
+			"host": "10.10.22.7",
+			"dialect": "mssql",
+			"logging": false,
+			"dialectOptions": {
+				"requestTimeout": 0,
+				"connectionTimeout": 9999999999
+			}
+		}
+	}
+}
